@@ -2,4 +2,8 @@ public  static  void main(String [] arugs){
      int i=0;
      int j=2;
     System.out.println(i+j);
+    for(;i<10;i++){
+    j+=i;
+    }
+    System.out.println(j);
 }
